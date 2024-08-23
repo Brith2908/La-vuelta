@@ -1,0 +1,2092 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    scroll-behavior: smooth;
+    font-size: 10px;
+    Overflow-x: hidden;
+    background: #d9d9d9;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* INICIO BANNER */
+.header{
+    position: absolute;
+    width: 100%;
+}
+.navigation{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    padding: 1.0rem 24.7rem 0 24.7rem;
+}
+
+nav{
+    border: 2px solid #A83420;
+    padding: 2.0rem 0;
+    backdrop-filter: blur(2px);
+    display: flex ;
+}
+
+nav ul li{
+    list-style: none;
+    color: #ffffff;
+    display: inline-flex;
+}
+
+.open{
+    color: black;
+    font-size: 5rem;
+    display: none;
+}
+.close{
+    color: black;
+    font-size: 5rem;
+    display: none;
+}
+.Active{
+    text-decoration: underline;
+    color:#A83420
+}
+
+nav a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color:#000;
+    padding-right: 5.0rem;
+    padding-left: 5.0rem;
+    transition: .5s ease-out;
+}
+
+nav a:hover{
+    color: #A83420;
+    text-decoration: underline;
+}
+
+nav ul li a:nth-child(5){
+    padding-left: 5.0rem;
+}
+
+.banner-content{
+    width: 100%;
+    height: 100vh;
+    background: url(../Imagenes/Imagen\ Banner.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 20.0rem;
+    padding-bottom: 5.0rem;
+}
+
+.banner-text{
+    max-width: 86.6rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
+.banner-text h1{
+    font-size: 7rem;
+    color: #A83420;
+    margin-bottom: 4.0rem;
+    font-family: "Anton", sans;
+}
+
+.banner-text p{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.btn-inscripcion{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-inscripcion:hover a{
+background: linear-gradient(to bottom, #532024 0%,#a83420 100%); 
+color: #d9d9d9;
+}
+#inscription-button{
+    margin: auto 0;
+}
+.btn-inscripcion a{
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 2rem 3.5rem;
+    background: #A83420;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+/* FINAL BANNER */
+/* INICIO FECHAS DE INSCRIPCION */
+.InscriptionDates{ 
+    background: url(../Imagenes/Fechas\ y\ correo.jpg) center no-repeat;
+    background-size: cover;
+}
+.container2{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.Dates h3{
+    font-family: "Anton",sans-serif;
+    color: #d9d9d9;
+    font-size: 6.0rem;
+    padding: 5.2rem;
+    max-width: 26.6rem;
+}
+
+.text{
+    display: flex;
+}
+
+.text h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: #d9d9d9;
+    max-width: 37.8rem;
+    text-align: center;
+}
+
+.registrationbox{
+    display: flex;
+    align-items: center;
+    height: 8.5rem;
+    background-color: #E67866;
+    padding: 3rem 7rem;
+    margin: 1.6rem;
+}
+.registrationbox form{
+    display: flex;
+    gap: 2.5rem;
+}
+.registrationbox form .email{
+    padding: .8rem;
+    align-items: center;
+    text-decoration: none;
+    border-style: hidden;
+    background-color: #E67866;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.arrow{
+    align-items: center;
+    background: #E67866;
+    border: 0;
+}
+
+.arrow i{
+    font-size: 2.8rem;
+    color: #a83420;
+    background: #E67866;
+}
+
+.textbox{
+    margin-left: 22.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+/* FINAL FECHAS DE INSCRIPCION */
+/* INICIO BIENVENIDOS  */
+.container3{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 3.0rem;
+    gap: 5.0rem;
+}
+.nosotros{
+    background-color: #d9d9d9;
+    padding-bottom: 6.0rem;
+}
+
+.welcome h2{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+}
+.welcome{
+    max-width: 45.9rem;
+    align-items: center;
+    padding-top: 5.3rem;
+}
+
+.information{
+    max-width: fit-content;
+    /* padding-left: 14.9rem; */
+    align-items: center;
+
+}
+
+.information p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+    max-width: 69.3rem;
+    text-align: center;
+}
+
+.btn-inscripcion2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.0rem;
+}
+
+.btn-inscripcion2:hover a{
+background: linear-gradient(to bottom, #532024 0%,#a83420 100%); 
+color: #d9d9d9;
+}
+
+.btn-inscripcion2 a{
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 2rem 3.5rem;
+    background: #A83420;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+/* FINAL BIENVENIDOS  */
+/* INICIO NUESTRAS RUTAS */
+.container4{
+    display: flex;
+    width: 100%;
+    max-width: 144rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.title-info h2{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 6rem;
+    color: #A83420;
+    padding: 1rem 0;
+}
+
+.title-info p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #000;
+    padding-top: 50px;
+}
+
+.Niv-facil{
+    max-width: 46.9rem;
+    padding: 0 5.3rem;
+    align-items: center;
+    padding-top: 3.0rem;
+    border-radius: 50px 50px 0 0;
+    margin-top: 10rem;
+    background-color: #E67866;
+    align-items: center;
+}
+
+.facil__img{
+    display: flex;
+    padding-left: 3.5rem;
+}
+
+.Niv-facil h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 3.0rem;
+}
+
+.Niv-facil img{
+    border-radius: 50px;
+}
+
+.Facil-info{
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    border-radius: 50px 50px 0 0;
+    margin-top: 2.1rem;
+    padding: 2.1rem 3.1rem;
+    background-color: #AC5A4D;    
+}
+
+.Facil-info h4{
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.Facil-info h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #d9d9d9;
+    margin: 1.2rem;
+}
+
+.Niv-Intermedio{
+    background-color: #E67866;
+    margin-left: 1.8rem;
+    margin-top: 10.0rem;
+    border-radius: 50px 50px 0 0;
+    width: 46.9rem;
+    padding: 0 5.3rem;
+    padding-top: 3.0rem;
+}
+
+.intermedio__img{
+    display: flex;
+    padding-left: 3.5rem;
+}
+.Niv-Intermedio h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 3.0rem;
+}
+
+.Niv-Intermedio img{
+    border-radius: 50px;
+}
+
+.Intermedio-info{
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    border-radius: 50px 50px 0 0;
+    margin-top: 2.1rem;
+    padding: 2.1rem 3.1rem;
+    background-color: #AC5A4D; 
+}
+
+.Intermedio-info h4{
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.Intermedio-info h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #d9d9d9;
+    margin: 1.2rem;
+}
+
+.Niv-Avanzado{
+    background-color: #E67866;
+    margin-left: 1.8rem;
+    margin-top: 10.0rem;
+    border-radius: 50px 50px 0 0;
+    width: 46.9rem;
+    padding: 0 5.3rem;
+    padding-top: 3.0rem;
+    flex-wrap: wrap;
+}
+
+.avanzado__img{
+    display: flex;
+    padding-left: 3.5rem;
+}
+.Niv-Avanzado h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 3.0rem;
+}
+
+.Niv-Avanzado img{
+    border-radius: 5rem;
+}
+
+.Avanzado-info{
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    border-radius: 50px 50px 0 0;
+    margin-top: 2.1rem;
+    padding: 2.1rem 3.1rem;
+    background-color: #AC5A4D; 
+}
+
+.Avanzado-info h4{
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.Avanzado-info h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #d9d9d9;
+    margin: 1.2rem;
+}
+/* FINAL NUESTRAS RUTAS */
+/* INICIO NUESTROS PREMIOS FACIL*/
+.content_items_carrusel{
+    height: 95rem;
+    overflow: hidden;
+}
+
+.lugar1_facil{
+    align-items: center;
+    width: 46.9rem;
+    height: 75.9rem;
+    padding: 0 1.5rem;
+}
+.lugar1_facil figure{
+    margin: auto;
+    padding-top: 7.8rem;
+}
+.lugar1_facil h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar1_facil p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+.lugar2_facil{
+    align-items: center;
+    width: 47rem;
+    height: 75.9rem;
+    padding: 0 1.5rem;
+}
+
+.lugar2_facil figure{
+    margin-left: 6.5rem;
+    padding-top: 4.3rem;
+}
+
+.lugar2_facil h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar2_facil p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+.lugar3_facil{
+    align-items: center;
+    width: 47rem;
+    height: 75.9rem;
+    padding: 0 1.5rem;
+}
+.lugar3_facil figure{
+    width: 32.4rem;
+    margin: auto;
+}
+
+.lugar3_facil h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar3_facil p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+/* FINAL NUESTROS PREMIOS FACIL*/
+/* INICIO NUESTROS PREMIOS INTERMEDIO */
+.tittle{
+    padding: 1.5rem 0;
+}
+.tittle h2{
+    font-family: "Anton", sans-serif;
+    font-size: 6rem;
+    color: #A83420;
+    text-align: center;
+}
+.tittle h3{
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: #A83420;
+    text-align: center;
+}
+.content_premios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 1rem;
+    gap: 1.0rem;
+}
+.lugar1_intermedio{
+    align-items: center;
+    width: 46.9rem;
+    height: 70.9rem;
+    padding: 0 1.5rem;
+}
+
+.lugar1_intermedio figure{
+    width: 32.4rem;
+    margin: auto;
+    padding-top: 14.5rem;
+}
+
+.lugar1_intermedio h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar1_intermedio p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+
+.lugar2_intermedio{
+    align-items: center;
+    width: 47rem;
+    height: 70.9rem;
+    padding: 0 1.5rem;
+}
+
+.lugar2_intermedio figure img{
+    margin: auto;
+    padding-top: 6.5rem;
+}
+.lugar2_intermedio h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar2_intermedio p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+
+.lugar3_intermedio{
+    align-items: center;
+    width: 47rem;
+    height: 70.9rem;
+    padding: 0 1.5rem;
+}
+
+.lugar3_intermedio h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar3_intermedio p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+
+.lugar3_intermedio figure{
+    width: 32.4rem;
+    margin: auto;
+}
+
+.flecha2 i{
+    font-size: 3rem;
+    color: #000000;
+}
+/* FINAL NUESTROS PREMIOS INTERMEDIO */
+/* INICIO NUESTROS PREMIOS AVANZADO */
+.lugar1_avanzado{
+    align-items: center;
+    width: 46.9rem;
+    height: 70.9rem;
+    padding: 0 1.5rem;
+}
+.lugar1_avanzado figure img{
+    width: 43.4rem;
+    margin: auto;
+    padding-top: 15rem;
+}
+
+.lugar1_avanzado h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar1_avanzado p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+.lugar2_avanzado{
+    align-items: center;
+    width: 46.9rem;
+    height: 70.9rem;
+    padding: 0 1.5rem;
+}
+.lugar2_avanzado figure img{
+    width: 43.4rem;
+    margin: auto;
+    padding-top: 6.5rem;
+}
+
+.lugar2_avanzado h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar2_avanzado p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+.lugar3_avanzado{
+    align-items: center;
+    width: 46.9rem;
+    height: 70.9rem;
+    padding: 0 1.5rem;
+}
+.lugar3_avanzado figure img{
+    width: 43.4rem;
+    margin: auto;
+    padding-top: 17.5rem;
+}
+
+.lugar3_avanzado h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding: 1rem 0;
+}
+.lugar3_avanzado p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+/* FINAL NUESTROS PREMIOS AVANZADO */
+/* INICIO NUESTROS SERVICIOS */
+.servicios{
+    max-width: 100%;
+}
+.serviciostitle{
+    padding-top: 4.0rem;
+}
+.serviciostitle h2{
+    font-family: "Anton", sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    color: #A83420;
+}
+.imagenes{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* align-items: flex-start;
+    align-content: flex-start; */
+    justify-content: center;
+    gap: 1.6rem;
+    margin: auto;
+    margin-top: 6.7rem;
+}
+.contenedorsuria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorsuria figure{
+    position: relative;
+    height: 35.5rem;
+    width: 59.1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+}
+.contenedorsuria figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedorsuria figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.30);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedorsuria figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedorsuria figure:hover > img{
+    transform: scale(1.3);
+}
+
+.contenedorsuria figure:hover > .capa p{
+    margin-top: 6.9rem;
+}
+
+.contenedorsuria figure .capa p{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 500ms ease-out;
+    margin-top: 1rem;
+}
+
+.contenedorsuria figure .capa a{
+    text-decoration: none;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contenedorcloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorcloud figure{
+    position: relative;
+    height: 35.5rem;
+    width: 59.1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+}
+
+.contenedorcloud figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedorcloud figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.30);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedorcloud figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedorcloud figure:hover > img{
+    transform: scale(1.3);
+}
+
+.contenedorcloud figure:hover > .capa p{
+    margin-top: 6.9rem;
+}
+
+.contenedorcloud figure .capa p{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 500ms ease-out;
+    margin-top: 1rem;
+}
+
+.contenedorcloud figure .capa a{
+    text-decoration: none;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contenedorquetzal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorquetzal figure{
+    position: relative;
+    height: 35.5rem;
+    width: 59.1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+}
+
+.contenedorquetzal figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedorquetzal figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.30);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedorquetzal figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedorquetzal figure:hover > img{
+    transform: scale(1.3);
+}
+
+.contenedorquetzal figure:hover > .capa p{
+    margin-top: 6.9rem;
+}
+
+.contenedorquetzal figure .capa p{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 500ms ease-out;
+    margin-top: 1rem;
+}
+
+.contenedorquetzal figure .capa a{
+    text-decoration: none;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+.contenedorsavegre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorsavegre figure{
+    position: relative;
+    height: 35.5rem;
+    width: 59.1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+}
+
+.contenedorsavegre figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedorsavegre figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.30);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedorsavegre figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedorsavegre figure:hover > img{
+    transform: scale(1.3);
+}
+
+.contenedorsavegre figure:hover > .capa p{
+    margin-top: 6.9rem;
+}
+
+.contenedorsavegre figure .capa p{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 500ms ease-out;
+    margin-top: 1rem;
+}
+
+.contenedorsavegre figure .capa a{
+    text-decoration: none;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.hoteles-text{
+    display: flex;
+    height: 11.6rem;
+    flex-shrink: 0;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.hoteles-text p{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+    justify-content: center;
+}
+/* FINAL NUESTROS SERVICIOS  */
+/* INICIO ITINERARIO */
+.itinerario{
+    padding-bottom: 6.8rem;
+}
+
+.intro h2{
+    font-family: "Anton", sans-serif;
+    color: #A83420;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.intro h5{
+    font-family: "Anton", sans-serif;
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 6.8rem;
+}
+
+.card1{
+    display: flex;
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+    gap: 7.9rem;
+    padding: 2.0rem 0;
+    border-radius: 5rem;
+    background: #D7C6C3;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.30);
+}
+
+.contenido{
+    width: 72.8rem;
+    text-align: center;
+}
+
+.contenido h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #A83420;
+    padding-top: 1.0rem;
+}
+
+.contenido h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.contenido p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    font-style: normal;
+    color: #000000;
+    padding-top: 2.4rem;
+    display: flex;
+}
+
+.dota img{
+    width: 60.7rem;
+    height: 32.9rem;
+    border-radius: 5rem;
+}
+
+.card2{
+    display: flex;
+    height: auto;
+    padding: 2rem;
+    align-items: center;
+    gap: 7.9rem;
+    border-radius: 5rem;
+    background: #D7C6C3;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.30); 
+    margin-top: 6.8rem;
+}
+
+.tarrazu img{
+    width: 60.7rem;
+    height: 32.9rem;
+    border-radius: 5rem;
+}
+
+.card3{
+    display: flex;
+    height: auto;
+    padding: 2rem;
+    align-items: center;
+    gap: 7.9rem;
+    border-radius: 5rem;
+    background: #D7C6C3;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.30);
+    margin-top: 6.8rem;
+}
+
+.LeonCortes img{
+    width: 60.7rem;
+    height: 32.9rem;
+    border-radius: 5rem;
+}
+/* FINAL ITINERARIO */
+/* INICIO UNIFORME */
+.Uniforme{
+    padding-top: 4.4rem;
+    padding-bottom: 4.4rem;
+}
+
+.contenidouniforme h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    text-align: left;
+    color: #A83420;
+    padding-bottom: 2.0rem;
+}
+
+.contenidouniforme p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: left;
+    padding-bottom: 8.0rem;
+}
+/* FINAL UNIFORME */
+/* INICIO PAQUETES DE INSCRIPCION */
+.paquetes_inscripcion{
+    padding: 5.0rem 0;
+    background: url(../Imagenes/Paquetes\ de\ inscripcion.jpg) center no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.content_paq h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+    text-align: center;
+    padding-bottom: 8.1rem;
+}
+.paquetes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.0rem;
+}
+
+.paquete_facil{
+    background: rgba(255, 255, 255, 0.70);
+    width: 46.9rem;
+    height: 69.7rem;
+    padding: 0 1rem;
+}
+
+.paq_tittle{
+    display: flex;
+    width: 45.9rem;
+    height: 5.0rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.paq_tittle h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3rem;
+    color: #A83420;
+    text-align: center;
+}
+
+.precio{
+    background-color: #A83420;
+    width: 12.1rem;
+    height: 5.0rem;
+    height: 5rem;
+    align-items: center;
+}
+.precio h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 1.1rem;
+}
+
+.info_paqfacil{
+    width: 44.8rem;
+    height: 63.7rem;
+    padding-left: 4.0rem;
+}
+.info_paqfacil p{
+    width: 37.1rem;
+    height: 60.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+    padding-top: 9rem;
+}
+
+.paquete_intermedio{
+    background: rgba(255, 255, 255, 0.70);
+    width: 46.9rem;
+    height: 69.7rem;
+    padding: 0 1rem;
+    margin-left: 1.6rem;
+}
+
+.paq_tittle_inter{
+    display: flex;
+    width: 45.9rem;
+    height: 5.0rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paq_tittle_inter h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3rem;
+    color: #A83420;
+    text-align: center;
+}
+
+.precio_inter{
+    background-color: #A83420;
+    width: 12.1rem;
+    height: 5.0rem;
+    height: 5rem;
+    align-items: center;
+}
+
+.precio_inter h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
+    padding-top: 1.1rem;
+}
+
+.info_paq_inter{
+    width: 44.8rem;
+    height: 63.7rem;
+    padding-left: 4.0rem;
+}
+
+.info_paq_inter p{
+    width: 37.1rem;
+    height: 60.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+    padding-top: 8.7rem;
+}
+
+.paquete_avanzado{
+    background: rgba(255, 255, 255, 0.70);
+    width: 46.9rem;
+    height: 69.7rem;
+    padding: 0 1rem;
+    margin-left: 1.6rem;
+}
+
+.paq_tittle_avanzado{
+    display: flex;
+    width: 45.9rem;
+    height: 5.0rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paq_tittle_avanzado h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    color: #A83420;
+    text-align: center;
+}
+
+.precio_avanzado{
+    background-color: #A83420;
+    width: 12.1rem;
+    height: 5.0rem;
+    height: 5rem;
+    align-items: center;
+}
+
+.precio_avanzado h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 1.1rem;
+}
+
+.info_paq_avanzado{
+    width: 44.8rem;
+    height: 63.7rem;
+    padding-left: 4.0rem;
+}
+
+.info_paq_avanzado p{
+    width: 37.1rem;
+    height: 60.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+/* FINAL PAQUETES DE INSCRIPCION */
+/* INICIO CONTACTANOS */
+.contactanos{
+    height: 95rem;
+    background-color: #d9d9d9;
+}
+.content_contactenos{
+    display: flex;
+    height: auto;
+    padding-top: 16.1rem;
+    align-items: flex-start;
+    gap: 2.1rem;
+}
+
+.info_contactanos{
+    width: 85.3rem;
+    height: 71.7rem;
+    padding: 1rem;
+}
+
+.info_contactanos h2{
+    font-family: "Anton", sans-serif;
+    font-size: 6rem;
+    color: #A83420;
+    text-align: left;
+    padding-bottom: 2.5rem;
+}
+
+.info_contactanos p{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    font-size: 2.5rem;
+    color: #000;
+    padding-bottom: 2.8rem;
+}
+/* FINAL CONTACTANOS */
+/* =========== Slider Patrocinadores ============= */
+.slider {
+    width: 75vw;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.slider .slide-track {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.5rem 0;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 20rem;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+/* =========== Final Slider Patrocinadores ============= */
+/* INICIO FOOTER */
+.footer{
+    background-color: #f3a295;
+    padding: 3.0rem 3.0rem;
+}
+.content_footer{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    padding-top: 5rem;
+    width: 100%;
+}
+.navigation_final{
+    text-align: center;
+}
+.navigation_final a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000;
+}
+.navigation_final a:hover{
+    color: #A83420;
+    text-decoration: underline;
+}
+.navigation_final ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+}
+.redes ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.redes h4{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #000;
+    padding-top: 2rem;
+}
+.social-icons{
+    display: flex;
+    gap: 2rem;
+}
+.social-icons i{
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+    align-items: center;
+}
+.politicas{
+    display: flex;
+    justify-content: space-between;
+    gap: 33.8rem;
+    padding-top: 2rem;
+}
+.politicas p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+}
+/* FINAL FOOTER */
+/* Formulario de Inscripcion */
+.contactanos{
+    height: auto;
+    justify-content: center;
+}
+
+.contenedor_Formu{
+    border: 5px solid #A83420;
+    background-color: white;
+    height: auto;
+    border-radius: 50px;
+    padding: 33px 105px;
+    margin: 3rem;
+    align-items: center;
+}
+.informacion-contenedor{
+    height: 55.3rem;
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+    justify-content: center;
+}
+.tittle_forminscripcion{
+    padding-top: 12rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.tittle_forminscripcion h3{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    color: #A83420;
+}
+.tittle_forminscripcion p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+}
+.izquierda{
+    width: 49.9rem;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+.form .input-box input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    background-color: #d9d9d9;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #787878;
+    margin-top: 8px;
+}
+.column{
+    gap: 2.8rem;
+}
+.size-box{
+    margin-top: 20px;
+}
+.size-option{
+    margin-bottom: 20px;
+}
+.size-box h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #A83420;
+    margin-bottom: 8px;
+}
+.form :where(.size-option, .size){
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+.form .size{
+    column-gap: 5px;
+}
+.form .Ruta-box{
+    margin-top: 40px;
+}
+.ruta-box h4{
+    font-family: "Montserrat",sans-serif;
+    font-size: 25px;
+    color: #A83420;
+    margin-bottom: 8px;
+}
+.form :where(.size input, .size label) {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+.form :where(.ruta-option, .ruta){
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.form .ruta {
+    column-gap: 5px;
+}
+.form :where(.ruta input, .ruta label) {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+.derecha{
+    width: 60.7rem;
+}
+.texto-informativo{
+    text-align: center;
+}
+.texto-informativo h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #A83420;
+}
+.texto-informativo p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+.form .input-coments{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.input-coments label{
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #A83420;
+}
+.form .input-coments input{
+    position: relative;
+    height: 94px;
+    width: 100%;
+    outline: none;
+    background-color: #d9d9d9;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #787878;
+    margin-top: 8px;
+}
+.contenedor-grande{
+    height: 60.6rem;
+}
+/* FINAL FORMULARIO */
+/* INICIO CHECK */
+.Inscripcion_complete{
+    background-color: #d9d9d9;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor_complete{
+    height: auto;
+    border-radius: 50px;
+    padding: 120px 50px;
+    text-align: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.contenedor_complete i{
+    font-size: 200px;
+    color: #A83420;
+}
+.contenedor_complete h2{
+    display: flex;
+    font-family: "Anton",sans-serif;
+    color: #A83420;
+    text-align: center;
+    font-size: 60px;
+    justify-content: center;
+}
+.contenedor_complete p{
+    display: flex;
+    font-family: "Montserrat",sans-serif;
+    color: #000;
+    font-size: 25px;
+}
+.contenedor_complete h5{
+    display: flex;
+    font-family: "Montserrat",sans-serif;
+    color: #A83420;
+    font-size: 25px;
+    justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+    .banner-content{
+        height: auto;
+        padding: 16rem 3.0rem;
+    }
+    .navigation{
+        padding: 5rem;
+    }
+    .banner-text{
+        max-width: 75.0rem;
+    }
+    .banner-text h1{
+        font-size: 6rem;
+    }
+    .banner-text p{
+        font-size: 2.5rem;
+    }
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4.0rem;
+        margin-top: 8.0rem;
+    }
+    nav a{
+        display: flex;
+        gap: 4.0rem;
+        font-weight: 700;
+    }
+    nav{
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        right: -100%;
+        width: 60%;
+        display: flex;
+        gap: 5rem;
+        z-index: 1000;
+        transition: .4s;
+        backdrop-filter: blur(20px);
+
+    }
+    .open{
+        display: block;
+        font-size: 5rem;
+        cursor: pointer;
+        color: #A83420;
+    }
+    .close{
+        display: block;
+        font-size: 5rem;
+        cursor: pointer;
+    }
+    .show-menu{
+        right: 0;
+    }
+    .container2{
+        display: flex;
+        padding: 0 4%
+        ;
+    }
+    .Dates h3{
+        font-size: 5.0rem;
+        padding: 5.2rem;
+    }
+    .text h5{
+        font-size: 2rem;
+    }
+    .container4{
+        flex-wrap: wrap;
+    }
+    .NuestrasRutas{
+        padding: 0 3.0rem;
+    }
+    .title-info h2{
+        font-size: 5rem;
+    }
+    .title-info p{
+        font-size: 2.8rem;
+    }
+    .NuestrosPremios{
+        padding: 5.0rem 0;
+    }
+    .content_premios{
+        padding: 5rem 0rem;
+        gap: 1rem;
+    }
+    .tittle h2{
+        font-size: 5rem;
+    }
+    .lugar1_facil{
+        padding: 0 1rem;
+    }
+    .lugar2_facil{
+        padding: 0 1rem;
+    }
+    .lugar3_facil{
+        padding: 0 1rem;
+    }
+    .serviciostitle h2{
+        font-size: 5rem;
+    }
+    .itinerario{
+        padding: 3rem 3rem;
+    }
+    .card1{
+        flex-direction: column;
+        width: fit-content;
+        padding: 1rem;
+        margin: auto;
+    }
+    .card2{
+        flex-direction: column;
+        width: fit-content;
+        padding: 1rem;
+        margin: 4rem auto;    
+    }
+    .card3{
+        flex-direction: column;
+        width: fit-content;
+        padding: 1rem;
+        margin: auto;    
+    }
+    .intro h2{
+        font-size: 5rem;
+    }
+    .intro h5{
+        font-size: 2rem;
+    }
+    .Uniforme{
+        padding: 5rem 3rem;
+    }
+    .contenidouniforme h3{
+        font-size: 4rem;
+    }
+    .contenidouniforme p{
+        font-size: 2rem;
+    }
+    .img-uniforme img{
+        width: 124rem;
+    }
+    .contactanos{
+        padding: 3rem 3rem;
+        justify-content: center;
+    }
+    .info_contactanos h2{
+        font-size: 5rem;
+    }
+    .info_contactanos p{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+    .informacion-contenedor{
+        flex-direction: column;
+        height: auto;
+    }
+    .contenedor_Formu{
+        height: auto;
+    }
+    .btn-inscripcion a{
+        margin: 5rem 0;
+    }
+    .contenedor_complete h2{
+        font-size: 5rem;
+    }
+    .contenedor_complete p{
+        font-size: 2rem;
+    }
+    .contenedor_complete h5{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo img{
+        width: 9rem;
+    }
+    .banner-text h1{
+        font-size: 5rem;
+    }
+    .banner-text p{
+        font-size: 2rem;
+    }
+    .banner-text{
+        max-width: 45.0rem;
+    }
+    .btn-inscripcion a{
+        padding: 1.5rem 3rem;
+        font-size: 2rem;
+    }
+    .Dates h3{
+        font-size: 3.0rem;
+        padding: 5.2rem;
+    }
+    .text h5{
+        font-size: 1.9rem;
+    }
+    .textbox{
+        flex-wrap: wrap;
+        margin-left: 3rem;
+        justify-content: center;
+    }
+    .welcome h2{
+        font-size: 4rem;
+    }
+    .welcome img{
+        width: 30rem;
+    }
+    .information p{
+        font-size: 2rem;
+        max-width: 69.3rem;
+    }
+    .btn-inscripcion2 a{
+        padding: 1.5rem 3rem;
+        font-size: 2rem;
+    }
+    .information{
+        padding-top: 5rem;
+    }
+    .title-info h2{
+        font-size: 4rem;
+    }
+    .title-info p{
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    .tittle h2{
+        font-size: 4rem;
+    }
+    .tittle h3{
+        font-size: 3rem;
+    }
+    .content_premios{
+        flex-direction: column;
+        height: auto;
+    }
+    .content_items_carrusel{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+    .lugar1_facil img{
+        width: 40rem;
+    }
+    .lugar1_facil figure {
+        padding: 5rem 0;
+    }
+    .lugar1_facil{
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar2_facil figure{
+        padding: 2rem;
+    }
+    .lugar2_facil img{
+        width: 28rem;
+    }
+    .lugar2_facil{
+        height: auto;
+        padding: 2rem;
+    }
+    .lugar3_facil{
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar3_facil img{
+        width: 28rem;
+    }
+    .lugar3_facil figure{
+        padding: 2rem;
+    }
+    .lugar1_intermedio {
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar1_intermedio figure{
+        padding: 2rem;
+    }
+    .lugar2_intermedio{
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar2_intermedio img{ 
+        width: 35rem;
+        padding: 2rem;
+    }
+    .lugar2_intermedio figure{ 
+        padding: 2rem;
+    }
+    .lugar3_intermedio{
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar3_intermedio img{
+        width: 30rem
+    }
+    .lugar3_intermedio figure {
+        padding: 2rem ;  
+    }
+    .lugar1_avanzado {
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar1_avanzado figure img {
+        padding: 2rem;
+    }
+    .lugar1_avanzado img {
+        width: 30rem
+    }
+    .lugar2_avanzado{
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar2_avanzado figure img {
+        padding: 2rem;
+    }
+    .lugar2_avanzado img{
+        width: 30rem
+    }
+    .lugar3_avanzado{
+        padding: 2rem;
+        height: auto;
+    }
+    .lugar3_avanzado img{
+        width: 30rem
+    }
+
+    .lugar3_avanzado figure img{
+        padding: 2rem;
+    }
+    .serviciostitle h2{
+        font-size: 4rem;
+    }
+    .imagenes{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .hoteles-text p{
+        font-size: 1.5rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 80rem;
+    }
+    .intro h2{
+        font-size: 4rem;
+    }
+    .intro h5{
+        font-size: 2rem;
+    }
+    .card1{
+        flex-direction: column;
+        display: flex;
+    }
+    .contenido p {
+        font-size: 1.5rem;
+        display: flex;
+    }
+    .dota img {
+        width: 50rem;
+    }
+    .card2{
+        flex-direction: column;
+    }
+    .card3{
+        flex-direction: column;
+    }
+    .img-uniforme img{
+        width: 72.5rem;
+    }
+    .contactanos{
+        height: auto;
+        padding: 2rem;
+        justify-content: center;
+    }
+    .contactanos__img img{
+        padding: 0 7.5rem;
+    }
+    .content_contactenos{
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+    .info_contactanos{
+        width: 70rem;
+        height: auto;
+    }
+    .info_contactanos p{
+        font-size: 2rem;
+    }
+    .info_contactanos h2{
+        padding: 2rem;
+        height: auto;
+    }
+    #btn-contact{
+        margin-top: 2rem;
+    }
+    .contenedor_complete h2{
+        font-size: 4rem;
+    }
+    .contenedor_complete p{
+        font-size: 1.5rem;
+    }
+    .contenedor_complete h5{
+        font-size: 2rem;
+    }
+    .slider{
+        margin-top: 2rem;
+    }
+    .slider .slide-track {
+        animation: scroll 40s linear infinite;
+        -webkit-animation: scroll 40s linear infinite;
+        width: calc(200px * 11);
+    }
+    .footer{
+        padding: 2rem;
+    }
+    .navigation_final a{
+        font-size: 1.5rem;
+    }    
+    .logo2 img{
+        width: 14rem;
+    }
+    .social-icons i{
+        font-size: 2rem;
+    }
+    .redes h4 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+    .politicas p{
+        font-size: 1rem;
+    }
+    .politicas{
+        gap: 20rem;
+    }
+    .content_footer {
+        padding: 1rem;
+    }
+    .informacion-contenedor{
+        flex-direction: column;
+    }
+    .contenedor_Formu{
+        height: auto;
+    }
+    .flecha2{
+        display: none;
+    }
+}
